@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "trukimages"
+  },
+  "targets": {
+    "trukimages": {
+      "hosting": {
+        "app": [
+          "trukimages"
+        ]
+      }
+    }
+  }
+}

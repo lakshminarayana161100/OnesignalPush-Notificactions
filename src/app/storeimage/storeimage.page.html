@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>storeimage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img *ngIf="image" [src]="image"/>
+
+  <ion-button expand="block" (click)="takePicture()">
+    Take A Picture
+  </ion-button>
+</ion-content>
